@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:folio/configs/app_typography.dart';
-import 'package:folio/provider/app_provider.dart';
 import 'package:provider/provider.dart';
+
+import '../configs/app_typography.dart';
+import '../provider/app_provider.dart';
 
 class AboutMeData extends StatelessWidget {
   final String data;

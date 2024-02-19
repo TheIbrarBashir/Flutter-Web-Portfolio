@@ -1,4 +1,5 @@
-import 'package:folio/utils/utils.dart';
+import 'package:Flutter_Web/utils/utils.dart';
+
 
 class ServicesUtils {
   static const List<String> servicesIcons = [

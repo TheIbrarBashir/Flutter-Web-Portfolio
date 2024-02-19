@@ -1,4 +1,4 @@
-import 'package:folio/utils/utils.dart';
+import 'package:Flutter_Web/utils/utils.dart';
 
 class WorkUtils {
   static const List<String> logos = [

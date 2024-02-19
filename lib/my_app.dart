@@ -1,10 +1,15 @@
+import 'package:Flutter_Web/provider/app_provider.dart';
+import 'package:Flutter_Web/provider/drawer_provider.dart';
+import 'package:Flutter_Web/provider/scroll_provider.dart';
+import 'package:Flutter_Web/sections/main/main_section.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/provider/app_provider.dart';
-import 'package:folio/provider/drawer_provider.dart';
-import 'package:folio/provider/scroll_provider.dart';
-import 'package:folio/sections/main/main_section.dart';
+
+
+
+
+
+import 'package:Flutter_Web/configs/core_theme.dart' as theme;
 import 'package:provider/provider.dart';
-import 'package:folio/configs/core_theme.dart' as theme;
 
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);

@@ -1,17 +1,19 @@
+import 'package:Flutter_Web/configs/space.dart';
 import 'package:flutter/foundation.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/about_utils.dart';
-import 'package:folio/utils/utils.dart';
-import 'package:folio/utils/work_utils.dart';
-
-import 'package:folio/widget/custom_text_heading.dart';
 import 'package:universal_html/html.dart' as html;
-
 import 'package:flutter/material.dart';
-import 'package:folio/utils/constants.dart';
-import 'package:folio/widget/about_me_data.dart';
-import 'package:folio/widget/community_button.dart';
-import 'package:folio/widget/tech_widget.dart';
+
+import '../../configs/app_dimensions.dart';
+import '../../configs/app_theme.dart';
+import '../../configs/app_typography.dart';
+import '../../utils/about_utils.dart';
+import '../../utils/constants.dart';
+import '../../utils/utils.dart';
+import '../../utils/work_utils.dart';
+import '../../widget/about_me_data.dart';
+import '../../widget/community_button.dart';
+import '../../widget/custom_text_heading.dart';
+import '../../widget/tech_widget.dart';
 
 class AboutMobile extends StatelessWidget {
   const AboutMobile({Key? key}) : super(key: key);
@@ -96,11 +98,11 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Name",
-            information: "Muhammad Hamza",
+            information: "Ibrar Bashir",
           ),
           const AboutMeData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "Waqarbashir462@gmail.com",
           ),
           Space.y!,
           OutlinedButton(
