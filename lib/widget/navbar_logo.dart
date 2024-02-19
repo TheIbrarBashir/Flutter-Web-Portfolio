@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:folio/configs/app_typography.dart';
+
+import '../configs/app_typography.dart';
 
 class NavBarLogo extends StatelessWidget {
   const NavBarLogo({Key? key}) : super(key: key);

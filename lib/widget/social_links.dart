@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/constants.dart';
-import 'package:folio/provider/app_provider.dart';
-import 'package:folio/responsive/responsive.dart';
-import 'package:folio/utils/utils.dart';
 import 'package:provider/provider.dart';
+import '../configs/app_dimensions.dart';
+import '../configs/app_theme.dart';
+import '../configs/space.dart';
+import '../provider/app_provider.dart';
+import '../responsive/responsive.dart';
+import '../utils/constants.dart';
+import '../utils/utils.dart';
 
 class SocialLinks extends StatelessWidget {
   const SocialLinks({

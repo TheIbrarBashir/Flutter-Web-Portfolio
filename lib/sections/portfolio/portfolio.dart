@@ -1,7 +1,7 @@
+import 'package:Flutter_Web/sections/portfolio/portfolio_desktop.dart';
+import 'package:Flutter_Web/sections/portfolio/portfolio_mobile.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/responsive/responsive.dart';
-import 'package:folio/sections/portfolio/portfolio_desktop.dart';
-import 'package:folio/sections/portfolio/portfolio_mobile.dart';
+import '../../responsive/responsive.dart';
 
 class Portfolio extends StatelessWidget {
   const Portfolio({Key? key}) : super(key: key);

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:folio/utils/constants.dart';
+
+import '../utils/constants.dart';
 
 class Footer extends StatelessWidget {
   const Footer({Key? key}) : super(key: key);
@@ -20,7 +21,7 @@ class Footer extends StatelessWidget {
               "Developed in 💙 with ",
             ),
             InkWell(
-              onTap: () => openURL("https://github.com/mhmzdev/DevFolio"),
+              onTap: () => openURL("https://github.com/TheIbrarBashir"),
               child: const Text(
                 "Flutter",
                 style: TextStyle(color: Colors.blue),

@@ -2,15 +2,19 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/constants.dart';
-import 'package:folio/provider/app_provider.dart';
-import 'package:folio/responsive/responsive.dart';
-import 'package:folio/utils/services_utils.dart';
-import 'package:folio/utils/utils.dart';
-import 'package:folio/widget/custom_text_heading.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
+
+import '../../configs/app_dimensions.dart';
+import '../../configs/app_theme.dart';
+import '../../configs/app_typography.dart';
+import '../../configs/space.dart';
+import '../../provider/app_provider.dart';
+import '../../responsive/responsive.dart';
+import '../../utils/constants.dart';
+import '../../utils/services_utils.dart';
+import '../../utils/utils.dart';
+import '../../widget/custom_text_heading.dart';
 
 part 'services_desktop.dart';
 part 'services_mobile.dart';

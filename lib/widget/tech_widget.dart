@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:folio/configs/app_dimensions.dart';
-import 'package:folio/configs/app_theme.dart';
-import 'package:folio/configs/app_typography.dart';
+import '../configs/app_dimensions.dart';
+import '../configs/app_theme.dart';
+import '../configs/app_typography.dart';
 
 class ToolTechWidget extends StatelessWidget {
   final String techName;

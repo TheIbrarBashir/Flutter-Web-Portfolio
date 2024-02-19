@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/constants.dart';
-import 'package:folio/provider/app_provider.dart';
 
 import 'package:provider/provider.dart';
+
+import '../configs/app_dimensions.dart';
+import '../configs/app_theme.dart';
+import '../configs/app_typography.dart';
+import '../configs/space.dart';
+import '../provider/app_provider.dart';
+import '../utils/constants.dart';
 
 class ProjectCard extends StatefulWidget {
   final String? banner;

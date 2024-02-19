@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/constants.dart';
-import 'package:folio/utils/project_utils.dart';
-import 'package:folio/utils/utils.dart';
-import 'package:folio/widget/custom_text_heading.dart';
-import 'package:folio/widget/project_card.dart';
+
+import '../../configs/app_dimensions.dart';
+import '../../configs/app_typography.dart';
+import '../../configs/space.dart';
+import '../../utils/constants.dart';
+import '../../utils/project_utils.dart';
+import '../../utils/utils.dart';
+import '../../widget/custom_text_heading.dart';
+import '../../widget/project_card.dart';
 
 class PortfolioDesktop extends StatefulWidget {
   const PortfolioDesktop({Key? key}) : super(key: key);
