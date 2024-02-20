@@ -4,34 +4,24 @@
     "subtitles": [
         "Flutter Developer",
         "Java Developer",
-        "UI/UX Designer"
+        ""
     ],
     "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
     "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
     "socialLinks": [
-        {
-            "platform": "facebook",
-            "url": "https://facebook.com/mhmzdev"
-        },
-        {
-            "platform": "instagram",
-            "url": "https://instagram.com/mhmzdev"
-        },
+
+
         {
             "platform": "twitter",
             "url": "https://twitter.com/mhmzdev"
         },
         {
             "platform": "linkedin",
-            "url": "https://linkedin.com/in/mhmzdev"
+            "url": "https://www.linkedin.com/in/ibrar-bashir"
         },
         {
             "platform": "github",
-            "url": "https://github.com/mhmzdev"
-        },
-        {
-            "platform": "medium",
-            "url": "https://mhamzadev.medium.com/"
+            "url": "https://github.com/TheIbrarBashir"
         }
     ],
     "aboutMeHeadline": "I'm Ibrar Bashir, a Flutter developer, Technical Writer and UI/UX Designer.",
@@ -145,15 +135,15 @@
     "contact": [
         {
             "param": "address",
-            "value": "Attock, Pakistan"
+            "value": "Bahawalpur, Pakistan"
         },
         {
             "param": "phone",
-            "value": "+92 346 0159889"
+            "value": "+92 304 0733783"
         },
         {
             "param": "email",
-            "value": "hamza.6.shakeel@gmail.com"
+            "value": "waqarbashir462@gmail.com"
         }
     ]
 }
